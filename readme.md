@@ -37,7 +37,7 @@ Output:
 MiBotCool#XXXX has connected to Discord!
 ```
 
-# Utilizarlo
+# Utilización
 
 Para poder darle uso a este bot, simplemente tenemos que etiquetarlo en el canal que deseamos generar un resumen. Luego de unos segundos cuando sea satisfcatoria la llamada a OpenAI, obtendremos el resumen.
 
