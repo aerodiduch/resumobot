@@ -2,11 +2,11 @@ import openai
 from discord import Intents
 import discord
 import random
-
+import os
 
 # Discord Token
 
-TOKEN = ""
+TOKEN = os.environ.get("DISCORD_TOKEN")
 intents = Intents.default()
 intents.members = True
 client = discord.Client(intents=intents)
@@ -14,7 +14,7 @@ client = discord.Client(intents=intents)
 
 # OpenAI api key
 
-openai.api_key = ""
+openai.api_key = os.environ.get("OPENAI_KEY")
 chatbot = openai.Completion()
 
 
