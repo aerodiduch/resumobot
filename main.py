@@ -3,6 +3,7 @@ from discord import Intents
 import discord
 import random
 
+
 # Discord Token
 
 TOKEN = ""

@@ -1,0 +1,12 @@
+version: "3"
+services:
+
+  resumo-bot:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: resumo-bot
+    container_name: resumo-bot
+    environment:
+      - DISCORD_TOKEN=
+      - OPENAI_KEY=
