@@ -7,7 +7,7 @@ Un pequeño bot que conecta Discord con OpenAI pensado para generar un resumen d
 Actualmente este bot no está hosteado en ninguna plataforma, por lo cual para 
 agregarlo a cualquier servidor, debe ser buildeado en origen y cumplir con las siguientes condiciones:
 
-- API KEY de OpenAI (servicio de pago) **[DOCUMENTACION PENDIENTE]**
+- API KEY de OpenAI (servicio de pago) [Tutorial](https://github.com/aerodiduch/resumobot/blob/main/OpenAI.md)
 - API KEY de Discord (servicio gratuito) **[DOCUMENTACION PENDIENTE]**
 
 # Instalación
@@ -46,6 +46,6 @@ Para poder darle uso a este bot, simplemente tenemos que etiquetarlo en el canal
 Este proyecto es un Work In Progress, por lo cual estará sujeto a modificaciones constantes con el objetivo de mejorar la experiencia del usuario
 
 Futuro:
-- Dockerizacion del proyecto
+- ~~Dockerizacion del proyecto.~~
 - Documentacion de generación de llaves de Discord (tutorial de bot)
-- Documentación de generación de llaves de OpenAI
+- ~~Documentación de generación de llaves de OpenAI~~
